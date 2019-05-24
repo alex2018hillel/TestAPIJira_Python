@@ -13,7 +13,7 @@ class TestIssueRefactored:
     def teardown():
         assert 1 == 1
 
-    @pytest.mark.api
+    #@pytest.mark.api
     def test_create_issue_refactored(self):
         result: Response = Api.create_issue("Alex_Tropp")
 
